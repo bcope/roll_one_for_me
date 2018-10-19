@@ -15,7 +15,7 @@ def main():
         yn = input("read_logs.py (y/n)> ")
         if yn == 'y':
             print("os.system('rm ' + fullname)")
-            print("os.system('rm ' + fullname[:-4]+'.pickle')")
+            print("os.system('rm ' + fullname[:-4] + '.pickle')")
             # os.system('rm ' + fullname)
             # os.system('rm ' + fullname[:-4] + '.pickle')
 
